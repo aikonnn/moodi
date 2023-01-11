@@ -1,0 +1,52 @@
+.center-container {
+    align-self: center;
+    padding-top: 30vh;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 80%;
+    margin-top: 20px;
+}
+
+h1{
+    color: white;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    padding: 10px 5px;
+    background-color: gray;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    width: 30%;
+    transition: 500ms;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    scale: 110%;
+}
+
+input {
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+input:focus{
+    background-color: rgb(57, 57, 57);
+}

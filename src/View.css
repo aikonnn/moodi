@@ -1,0 +1,44 @@
+.table {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.header-cell{
+    padding: 8px;
+    background-color: rgb(209, 209, 209);
+}
+
+.table-cell{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.edit-btn{
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    transition: 500ms;
+}
+.edit-btn:hover{
+    scale: 105%;
+    background-color: gray;
+}
+
+.del-btn{
+    padding: 5px 8px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    transition: 500ms;
+}
+.del-btn:hover{
+    scale: 105%;
+    background-color: brown;
+}

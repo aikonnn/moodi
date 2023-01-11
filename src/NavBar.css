@@ -1,0 +1,31 @@
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.btn {
+    padding: 2px 5px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 2px;
+    border-style: hidden;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn:hover {
+    scale: 105%;
+}
+
+.flex {
+    background-color: black;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
